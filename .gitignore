@@ -131,4 +131,3 @@ dmypy.json
 # Additional ignore for apps
 **/*.sh
 **/*.csv
-**/*.joblib
