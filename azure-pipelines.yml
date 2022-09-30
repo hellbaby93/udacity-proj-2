@@ -38,4 +38,4 @@ steps:
     WebAppName: 'udacity-demo'
     packageForLinux: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     RuntimeStack: 'PYTHON|3.7'
-    StartupCommand: 'gunicorn --bind=0.0.0.0 --workers=4 startup:app'
+    StartupCommand: 'gunicorn --bind=0.0.0.0 --workers=4 app'
