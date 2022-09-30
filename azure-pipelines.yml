@@ -36,5 +36,5 @@ steps:
     azureSubscription: 'UdacityDS - 57'
     appType: 'webAppLinux'
     WebAppName: 'udacity-demo'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    packageForLinux: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     RuntimeStack: 'PYTHON|3.7'
