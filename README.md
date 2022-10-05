@@ -64,6 +64,10 @@ az webapp deploy --resource-group <group-name> --name <app-name> --src-path <zip
 
 ![alt text](img\predict.png "App Service")
 
+* KUDU Logstream.
+
+![alt text](img\logstream.png "App Service")
+
 
 ## Enhancements / Issues
 
@@ -71,3 +75,5 @@ az webapp deploy --resource-group <group-name> --name <app-name> --src-path <zip
 * As of now Python 3.7 coming to the end of life. In the future, please make sure that you update the application to work with later version of Python.
 
 ## Demo
+
+<https://youtu.be/B2YRMJ1uPs4>
