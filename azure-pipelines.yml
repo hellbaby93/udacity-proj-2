@@ -47,5 +47,4 @@ steps:
     WebAppName: 'udacity-demo'
     packageForLinux: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     RuntimeStack: 'PYTHON|3.7'
-    AppSettings: '-Port 5000'
     # StartupCommand: 'gunicorn --bind=0.0.0.0:5000 --workers=4 app:app'
