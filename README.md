@@ -52,14 +52,17 @@ az webapp deploy --resource-group <group-name> --name <app-name> --src-path <zip
 * Output of a test run
 
 * Successful deploy of the project in Azure Pipelines
-![alt text](img\azurepipeline.png "Passed Test")
+![alt text](img\azurepipeline.png "Pipeline")
 
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
+![alt text](img\running_on_appservice.png "App Service")
+
+
 * Successful prediction from deployed flask app in Azure Cloud Shell.
 
-* Output of streamed log files from deployed application
+![alt text](img\predict.png "App Service")
 
 
 ## Enhancements / Issues
