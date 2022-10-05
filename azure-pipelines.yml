@@ -42,7 +42,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'UdacityDS - 57'
+    azureSubscription: 'https://odl_user_sp_210253'
     appType: 'webAppLinux'
     WebAppName: 'udacity-demo'
     packageForLinux: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
