@@ -10,7 +10,7 @@ This repo is for demoing the automatic deployment to Microsoft Azure App Service
 ## Instructions
 
 * Architectural Diagram:
-![alt text](img\arc.png "Architecture")
+![alt text](img/arc.png "Architecture")
 
 
 ### Running on local environment:
@@ -42,31 +42,31 @@ az webapp deploy --resource-group <group-name> --name <app-name> --src-path <zip
 * Project running on Azure App Service
 
 * Project cloned into Azure Cloud Shell
-![alt text](img\cloned_cloud_shell.png "Cloud Shell")
+![alt text](img/cloned_cloud_shell.png "Cloud Shell")
 
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
-![alt text](img\passed_test.png "Passed Test")
+![alt text](img/passed_test.png "Passed Test")
 
 
 * Output of a test run
 
 * Successful deploy of the project in Azure Pipelines
-![alt text](img\azurepipeline.png "Pipeline")
+![alt text](img/azurepipeline.png "Pipeline")
 
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
-![alt text](img\running_on_appservice.png "App Service")
+![alt text](img/running_on_appservice.png "App Service")
 
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.
 
-![alt text](img\predict.png "App Service")
+![alt text](img/predict.png "App Service")
 
 * KUDU Logstream.
 
-![alt text](img\logstream.png "App Service")
+![alt text](img/logstream.png "App Service")
 
 
 ## Enhancements / Issues
