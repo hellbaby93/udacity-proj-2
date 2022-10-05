@@ -42,10 +42,10 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'https://odl_user_sp_210253'
+    azureSubscription: 'UdacityDS - 72'
     appType: 'webAppLinux'
     WebAppName: 'udacity-demo'
     packageForLinux: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     RuntimeStack: 'PYTHON|3.7'
-    AppSettings: -Port 5000'
+    AppSettings: '-Port 5000'
     # StartupCommand: 'gunicorn --bind=0.0.0.0:5000 --workers=4 app:app'
