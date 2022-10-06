@@ -14,7 +14,6 @@ This repo is for demoing the automatic deployment to Microsoft Azure App Service
 * Architectural Diagram:
 ![alt text](img/arc.png "Architecture")
 
-
 ### Running on local environment:
 
 Move to the application directory and run the following command:
@@ -41,26 +40,27 @@ az webapp deploy --resource-group <group-name> --name <app-name> --src-path <zip
 
 ## The results
 
-* Project running on Azure App Service
+* Locust test
+
+![alt text](img/locust/locust1.png "Locust Stats")
+![alt text](img/locust/locust2.png "Locust Chart")
+![alt text](img/locust/locust3.png "Locust CLI")
+
 
 * Project cloned into Azure Cloud Shell
 ![alt text](img/cloned_cloud_shell.png "Cloud Shell")
 
-
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 ![alt text](img/passed_test.png "Passed Test")
-
 
 * Output of a test run
 
 * Successful deploy of the project in Azure Pipelines
 ![alt text](img/azurepipeline.png "Pipeline")
 
-
 * Running Azure App Service from Azure Pipelines automatic deployment
 
 ![alt text](img/running_on_appservice.png "App Service")
-
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.
 
@@ -69,7 +69,6 @@ az webapp deploy --resource-group <group-name> --name <app-name> --src-path <zip
 * KUDU Logstream.
 
 ![alt text](img/logstream.png "App Service")
-
 
 ## Enhancements / Issues
 
