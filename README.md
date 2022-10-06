@@ -1,5 +1,7 @@
 # Overview
 
+[![Python application test with Github Actions](https://github.com/hellbaby93/udacity-proj-2/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/hellbaby93/udacity-proj-2/actions/workflows/pythonapp.yml)
+
 This repo is for demoing the automatic deployment to Microsoft Azure App Services using GitHub and Microsoft Azure DevOps pipeline
 
 ## Project Plan
